@@ -1,0 +1,10 @@
+team = ["ねずこ","ぜんいつ"]
+
+def if_name(name):
+    if name in team:
+        print("Friend")
+    else:
+        print ("enemy")
+
+
+if_name("yayaya")
