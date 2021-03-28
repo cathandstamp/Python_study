@@ -13,5 +13,14 @@ def search():
     if word in source:
         print("{}が見つかりした".format(word))
 
+    else: 
+        source.append(word)
+        mes ="{}さんをソースへついかしました".format(word)
+        print(mes)
+        print(source)
+
+
+
+
 if __name__ == "__main__":
     search()
